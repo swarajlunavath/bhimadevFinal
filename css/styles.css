@@ -1,0 +1,56 @@
+body{
+    padding:50px 0px 0px 0px;
+    z-index:0;
+}
+
+.navbar-dark {
+     background-color: #3F729B;
+}
+.footer {
+  background-color: rgba(3, 169, 244, 0.3);
+  margin: 0px auto;
+  padding: 20px 0px; }
+
+.jumbotron {
+  margin: 0px auto;
+  padding: 80px 20px;
+
+  background-size: cover;
+  height: 450px;
+  color: inherit; }
+
+  .jumbotron1 {
+    margin: 0px auto;
+    padding: 80px 20px;
+
+    background-size: cover;
+    height: 270px;
+    color: inherit; }
+
+  .row-content {
+    margin: 0px auto;
+    padding: 50px 0px;
+
+ }
+ .row-content2 {
+   margin: 0px auto;
+   padding: 50px 0px;
+
+}
+ .card-header{
+   background-color: #4B515D;
+   color:white;
+
+
+ }
+
+ .carousel {
+   background: white; }
+
+   .carousel .carousel-item {
+     height: 350px; }
+     .carousel .carousel-item img {
+       position: absolute;
+       top: 0;
+       left: 0;
+       min-height: 200px; }

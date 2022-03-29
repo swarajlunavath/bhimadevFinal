@@ -1,0 +1,561 @@
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BhimaDev</title>
+    <!-- Required meta tags always come first -->
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+   <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+   <!-- Bootstrap CSS -->
+   <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+   <link rel="stylesheet" href="css/styles.css">
+   <link rel="stylesheet" href="node_modules/animate.css/animate.min.css">
+
+  </head>
+  <body>
+
+    <nav class="navbar navbar-dark navbar-expand-sm fixed-top">
+      <div class="container">
+        <img height="40px" width="80px" src="img/ologo1.png" alt="not found">
+         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#Navbar">
+           <span class="navbar-toggler-icon"></span>
+         </button>
+ <!--      <a class="navbar-brand mr-auto" href="#"><img src="img/logoweb.png" height="30" width="41"></a>-->
+        <div class="collapse navbar-collapse" id="Navbar">
+          <ul class="navbar-nav ml-auto wow animated pulse">
+            <li class="nav-item active"><a class="nav-link" href="./index.html"><span ></span> Home</a></li>
+            <li class="nav-item"><a class="nav-link" href="./about.html"><span ></span> About My Team</a></li>
+            <li class="nav-item"><a class="nav-link" href="./liccareer.html"><span ></span> LIC Career</a></li>
+            <li class="nav-item"><a class="nav-link" href="./contact.html"><span></span>Contact</a></li>
+
+          </ul>
+
+          <!--<span class="navbar-text">
+            <a id="loginButton" role="button">
+              <span class="fa fa-sign-in"></span>Login
+            </a>
+          </span>-->
+
+        </div>
+      </div>
+    </nav>
+
+    <div id="loginModal" class="modal fade" role="dialog">
+    <div class="modal-dialog modal-lg" role="content">
+      <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title">Login</h4>
+        <button type="button" class="close" data-dismiss="modal">
+          &times;
+        </button>
+      </div>
+      <div class="modal-body">
+        <form action="" method="post">
+            <div class="form-row">
+                <div class="form-group col-sm-4">
+                        <label class="sr-only" for="exampleInputEmail3">Username</label>
+                        <input type="username" class="form-control form-control-sm mr-1" name="username" id="username" placeholder="Enter username">
+                </div><br>
+                <div class="form-group col-sm-4">
+                    <label class="sr-only" for="exampleInputPassword3">Password</label>
+                    <input type="password" class="form-control form-control-sm mr-1" name="password" id="password" placeholder="Enter Password">
+                </div>
+            </div>
+            <div class="form-row">
+                <button type="button" class="btn btn-secondary btn-sm ml-auto" data-dismiss="modal">Cancel</button>
+                <button type="submit" class="btn btn-primary btn-sm ml-1">Sign in</button>
+            </div>
+        </form>
+      </div>
+    </div>
+    </div>
+    </div>
+
+
+<header class="jumbotron view jarallax" style="  background-image: url(img/jumbo-1.jpg);" >
+
+      <div class="container">
+
+        <div class="row row-header">
+          <div class="col-12 col-sm-10 col-md-5">
+<img class="col-8 col-md-4 wow animated bounceInDown delay-0.5s" src="img/ologo1.png" alt="Not found">
+            <h1 class=" wow animated bounceInDown delay-1s">BhimaDev</h1> <p ><h5 class="wow animated bounceInRight delay-2s"><b>Devasingh,</b></h5><h6 class="wow animated bounceInUp delay-2s"><i>Senior Business Associate, Branch 68D, Karminagar, Telangana.</i></h6></p>
+          </div>
+
+        </div>
+      </div>
+    </header>
+
+
+
+<!--<div class="row row-content">
+  <div id="mycarousel" class="carousel slide carousel-fade" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#carousel-example-2" data-slide-to="0" class="active"></li>
+    <li data-target="#carousel-example-2" data-slide-to="1"></li>
+    <li data-target="#carousel-example-2" data-slide-to="2"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+    <div class="carousel-item active">
+      <div class="view">
+        <img class="d-block w-100" src="img/jumbo-1.jpg" alt="First slide">
+        <div class="mask rgba-black-light"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Light mask</h3>
+        <p>First text</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+      <div class="view">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(6).jpg" alt="Second slide">
+        <div class="mask rgba-black-strong"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Strong mask</h3>
+        <p>Secondary text</p>
+      </div>
+    </div>
+    <div class="carousel-item">
+    <div class="view">
+        <img class="d-block w-100" src="https://mdbootstrap.com/img/Photos/Slides/img%20(9).jpg" alt="Third slide">
+        <div class="mask rgba-black-slight"></div>
+      </div>
+      <div class="carousel-caption">
+        <h3 class="h3-responsive">Slight mask</h3>
+        <p>Third text</p>
+      </div>
+    </div>
+  </div>
+  <a class="carousel-control-prev" href="#carousel-example-2" role="button" data-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="sr-only">Previous</span>
+  </a>
+  <a class="carousel-control-next" href="#carousel-example-2" role="button" data-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="sr-only">Next</span>
+  </a>
+
+</div>
+</div>-->
+
+    <div class="row row-content">
+
+      <div class="col-4 col-md-2 animated bounceInLeft delay-2s view overlay">
+      <a href="./mytools.html" > <img src="img/me.png" height="90px" width="95px"></img>
+       <h5 class="font-weight-bold my-3">About me</h5></a>
+      </div>
+      <div class="col-4 col-md-2 animated bounceInLeft delay-2s">
+      <a href="./info.html" > <img src="img/info1.png" height="90px" width="95px"></img>
+        <h5 class="font-weight-bold my-3">Information</h5></a>
+      </div>
+      <div class="col-4 col-md-2 animated bounceInLeft delay-2s">
+      <a href="./liccareer.html" > <img src="img/career.svg" height="90px" width="95px"></img>
+        <h5 class="font-weight-bold my-3">Lic career</h5></a>
+      </div>
+      <div class="col-4 col-md-2 animated bounceInLeft delay-2s">
+      <a href="./learningcenter.html" > <img src="img/benifits.svg" height="90px" width="95px"></img>
+        <h5 class="font-weight-bold my-3">Benifits and Advantages</h5></a>
+      </div>
+      <div class="col-4 col-md-2 animated bounceInLeft delay-2s">
+      <a href="./about.html" > <img src="img/myteam.png" height="90px" width="95px"></img>
+        <h5 class="font-weight-bold my-3">My Team</h5></a>
+      </div>
+      <div class="col-4 col-md-2 animated bounceInLeft delay-2s">
+      <a href="./contact.html" > <img src="img/contact.png" height="90px" width="95px"></img>
+        <h5 class="font-weight-bold my-3">contact</h5></a>
+      </div>
+   </div>
+  <div  class="jumbotron1 view jarallax" style="  background-image: url(img/quote5.jpg);">
+    <div class="container">
+      <div class="row row-header">
+        <div class="col-12">
+          <h1 class=" col-12 mx-5 wow animated fadeIn slow shadow example z-depth-5"><b>"One of the biggest teams with over 150 agents"</b></h1>
+          </div>
+      </div>
+    </div>
+
+  </div>
+    <div class="row row-content">
+      <div class="col-12 col-md-6">
+        <div id="accordion ">
+          <div class="card wow animated tada delay-3.5s">
+            <div class="card-header" role="tab" id="agencyapply">
+            <h3 class="mb-0">
+              <a data-toggle="collapse" data-target="#agencyform">
+                Apply for Insurance Advisor<small>  --Agent</small>
+              </a></h3>
+          </div>
+           <!--<div class="collapse hide" id="agencyform" data-parent="#accordian">-->
+            <div class="card-body">
+              <form action="mailto:devasinghlic@gmail.com" method="post">
+                  <div class="form-group row">
+                    <label for="name" class="col-md-3 col-form-label">Name</label>
+                    <div class="col-12 col-sm-6">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name here">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="dob" class="col-md-3 col-form-label">Date of Birth</label>
+                    <div class="col-12 col-sm-4">
+                      <input type="datepicker" class="form-control" id="dob" name="dob" placeholder="Enter your DoB here">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="mobile" class="col-md-3 col-form-label">Mobile Number</label>
+                    <div class="col-12 col-sm-6">
+                      <input type="number" class="form-control" id="mobile" name="mobile" placeholder="Enter your mobile no. here">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="qualifcations" class="col-md-3 col-form-label">Qualification</label>
+                    <div class="col-12 col-sm-4">
+                      <select class="custom-select my-1 mr-sm-2" id="qualifcation">
+                        <option selected>Choose...</option>
+                        <option value="ssc">SSC</option>
+                        <option value="inter">Inter</option>
+                        <option value="degree">Degree</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="mail" class="col-md-3 col-form-label">Mail</label>
+                    <div class="col-12 col-sm-6">
+                      <input type="email" class="form-control" id="mail" name="mail" placeholder="Enter your mail here">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                      <button type="button" class="btn btn-secondary btn-sm ml-auto" >Cancel</button>
+                      <button type="submit" class="btn btn-danger btn-sm ml-1">Submit</button>
+                  </div>
+              </form>
+            </div>
+           <!--</div>-->
+         </div>
+      </div>
+      </div>
+    <div class="col-12 col-md-6">
+    <!--    <div class="card">-->
+          <div class="card-body">
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner" role="listbox">
+            <div class="carousel-item active">
+              <img class="d-block img-fluid" src="img/main/1.jpg" alt="image not found">
+                        </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/main/2.jpg" alt="image not found">
+
+            </div>
+            <div class="carousel-item">
+              <img class="d-block img-fluid" src="img/main/3.jpg" alt="image not found">
+
+          </div>
+          <div class="carousel-item">
+            <img class="d-block img-fluid" src="img/main/4.jpg" alt="image not found">
+
+        </div>
+        <div class="carousel-item">
+          <img class="d-block img-fluid" src="img/main/5.jpg" alt="image not found">
+
+      </div>
+      <div class="carousel-item">
+        <img class="d-block img-fluid" src="img/main/6.jpg" alt="image not found">
+
+    </div>
+    <div class="carousel-item">
+      <img class="d-block img-fluid" src="img/main/7.jpg" alt="image not found">
+
+  </div>
+
+
+          <ol class="carousel-indicators">
+            <li data-target="#mycarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#mycarousel" data-slide-to="1"></li>
+            <li data-target="#mycarousel" data-slide-to="2"></li>
+            <li data-target="#mycarousel" data-slide-to="3"></li>
+            <li data-target="#mycarousel" data-slide-to="4"></li>
+            <li data-target="#mycarousel" data-slide-to="5"></li>
+            <li data-target="#mycarousel" data-slide-to="6"></li>
+
+          </ol>
+          <a class="carousel-control-prev" href="#mycarousel" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#mycarousel" role="button" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+
+        </div>
+      </div>
+    </div>
+<!--  </div>-->
+    </div>
+
+
+
+<!--
+      <div class="col-12 col-md-3 ">
+        <div id="accordion">
+          <div class="card wow animated flipInY delay-4s" >
+              <div class="card-header bg-light" role="tab" id="mytools">
+                <h4 class="mb-0 text-muted">
+                  <a href="./mytools.html">
+                About Me
+                  </a></h4>
+              </div>
+              <div class="card-header bg-light" role="tab" id="liccareer">
+                <h4 class="mb-0 text-muted">
+                  <a href="./liccareer.html">
+                LIC Career
+                  </a></h4>
+              </div>
+              <div class="card-header bg-light" role="tab" id="aboutmyteam">
+                <h4 class="mb-0 text-muted">
+                  <a href="./about.html">
+                About My Team
+                  </a></h4>
+              </div>
+              <div class="card-header bg-light" role="tab" id="information">
+                <h4 class="mb-0 text-muted">
+                  <a href="./info.html">
+                Information
+                  </a></h4>
+              </div>
+              <div class="card-header bg-light" role="tab" id="learningcenter">
+                <h4 class="mb-0 text-muted">
+                  <a href="./learningcenter.html">
+                Learning Center
+                  </a></h4>
+              </div>
+              <div class="card-header bg-light" role="tab" id="irda">
+                <h4 class="mb-0 text-muted">
+                  <a href="./irda.html">
+                IRDA Online Exam
+                  </a></h4>
+              </div>
+              <div class="card-header bg-light" role="tab" id="contact">
+                <h4 class="mb-0 text-muted">
+                  <a href="./contact.html">
+                Contact
+                  </a></h4>
+              </div>
+          </div>
+        </div>
+      </div>-->
+    </div>
+    <!--<div class="row row-content">
+      <div class="col-12 col-md-6">
+        <div id="accordion ">
+          <div class="card wow animated tada delay-3.5s">
+            <div class="card-header" role="tab" id="agencyapply">
+            <h3 class="mb-0">
+              <a data-toggle="collapse" data-target="#agencyform">
+                Apply for Insurance Advisor<small>  --Agent</small>
+              </a></h3>
+          </div>
+           <div class="collapse hide" id="agencyform" data-parent="#accordian">
+            <div class="card-body">
+              <form action="mailto:devasinghlic@gmail.com" method="post">
+                  <div class="form-group row">
+                    <label for="name" class="col-md-3 col-form-label">Name</label>
+                    <div class="col-12 col-sm-6">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Enter your name here">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="dob" class="col-md-3 col-form-label">Date of Birth</label>
+                    <div class="col-12 col-sm-4">
+                      <input type="datepicker" class="form-control" id="dob" name="dob" placeholder="Enter your DoB here">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="mobile" class="col-md-3 col-form-label">Mobile Number</label>
+                    <div class="col-12 col-sm-6">
+                      <input type="number" class="form-control" id="mobile" name="mobile" placeholder="Enter your mobile no. here">
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="qualifcations" class="col-md-3 col-form-label">Qualification</label>
+                    <div class="col-12 col-sm-4">
+                      <select class="custom-select my-1 mr-sm-2" id="qualifcation">
+                        <option selected>Choose...</option>
+                        <option value="ssc">SSC</option>
+                        <option value="inter">Inter</option>
+                        <option value="degree">Degree</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="form-group row">
+                    <label for="mail" class="col-md-3 col-form-label">Mail</label>
+                    <div class="col-12 col-sm-6">
+                      <input type="email" class="form-control" id="mail" name="mail" placeholder="Enter your mail here">
+                    </div>
+                  </div>
+                  <div class="form-row">
+                      <button type="button" class="btn btn-secondary btn-sm ml-auto" >Cancel</button>
+                      <button type="submit" class="btn btn-danger btn-sm ml-1">Submit</button>
+                  </div>
+              </form>
+            </div>
+           </div>
+         </div3
+      </div>
+      </div>
+  </div>-->
+  <div  class="jumbotron1 view jarallax" style="  background-image: url(img/quote6.jpg);" >
+    <div class="container">
+      <div class="row row-header">
+        <div class="col-12">
+          <h1 class=" col-12 mx-5 wow animated fadeIn slow shadow example z-depth-5" ><b>"Always aiming for the top without Givingup "</b></h1>
+          </div>
+      </div>
+    </div>
+ </div>
+    <div class="row row-content">
+      <div class="col-12 col-md-6">
+        <p><b><i>For more info on insurance advisor <a href="./liccareer.html"><b></i>click here</strong></b></a></strong></b></p>
+      </div>
+    </div>
+    <!--<div class="row row-content">
+      <div class="col-12 col-md-8">
+        <div class="card">
+          <div class="card-header bg-secondary">
+            <h4 class="mb-0">
+              News and Updates</h4>
+          </div>
+          <div class="card-body bg-light">
+            <ul>
+              <li>-----------news1----------</li>
+              <li>-----------news2----------</li>
+              <li>-----------news3----------</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      </div>
+-->
+
+    <div class="row row-content2">
+
+    </div>
+    <footer class="footer">
+      <div class="container">
+          <div class="row">
+              <div class="col-4 offset-1 col-sm-2">
+                  <h5>Links</h5>
+                  <ul class="list-unstyled">
+                      <li><a href="./index.html">Home</a></li>
+                      <li><a href="./mytools.html">About Me</a></li>
+                      <li><a href="./liccareer.html">Lic career</a></li>
+                      <li><a href="./contact.html">Contact</a></li>
+                      <li><a href="./info.html">Information</a></li>
+                      <li><a href="./learningcenter.html">Learning Center</a></li>
+                      <li><a href="./irda.html">IRDA Online Exam</a></li>
+                      <li><a href="./about.html">About My Team</a></li>
+                  </ul>
+              </div>
+              <div class="col-7 col-sm-5">
+                  <h5>Our Address</h5>
+                  <address>
+                LIC of India,<br>
+                Huzurabad,<br>
+                S.O: Jammikunta<br>
+                Karminagar division<br>
+                <i class="fa fa-phone fa-lg"></i>: 9948987089<br>
+                <i class="fa fa-envelope fa-lg"></i>: <a href="#">devasinghlic@gmail.com</a>
+             </address>
+              </div>
+              <div class="col-12 col-sm-4 align-self-center">
+                  <div class="text-center">
+                      <a class="btn btn-social-icon btn-google" href="#"><i class="fa fa-google-plus fa-lg"></i></a>
+                      <a class="btn btn-social-icon btn-facebook" href="#"><i class="fa fa-facebook fa-lg"></i></a>
+                      <a class="btn btn-social-icon btn-linkedin" href="#"><i class="fa fa-linkedin fa-lg"></i></a>
+                      <a class="btn btn-social-icon btn-twitter" href="#"><i class="fa fa-twitter fa-lg"></i></a>
+                      <a class="btn btn-social-icon btn-instagram" href="#"><i class="fa fa-instagram fa-lg"></i></a>
+                  </div>
+              </div>
+          <!--   <div class="col=col-6 col-md-3">
+                <img src="img/logoweb.png" height="50" width="41">
+              </div>-->
+         </div>
+      <!--   <div class="row justify-content-center">
+              <div class="col-auto">
+                  <p>© Copyright 2018 BhimaDev</p>
+              </div>
+         </div>-->
+      </div>
+      <div >
+
+          <p align="center"><i>Powered by</i> <b>WEBSER</b>  </p>
+
+        </div>
+    </footer>
+
+  </body>
+  <!-- jQuery first, then Popper.js, then Bootstrap JS. -->
+    <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/wow.js/dist/wow.min.js"></script>
+      <script src="node_modules/jarallax/dist/jarallax.js"></script>
+    <script src="node_modules/jarallax/dist/jarallax.min.js"></script>
+    <script src="node_modules/jarallax/dist/jarallax.element.js"></script>
+    <script src="node_modules/jarallax/dist/jarallax.element.min.js"></script>
+    <script>
+      new WOW().init();
+
+    </script>
+    <script>
+    $('.jarallax').jarallax({
+speed: 0.2
+});
+
+    </script>
+    <script>
+    $(document).ready(function(){
+      $('#mycarousel').carousel({interval: 2000});
+      $('#mycarousel1').carousel({interval: 4000});
+        $('#carouselButton').click(function(){
+          if($('#carouselButton').children('span').hasClass('fa-pause')){
+            $('#mycarousel').carousel('pause');
+            $('#carouselButton').children('span').removeClass('fa-pause');
+            $('#carouselButton').children('span').addClass('fa-play');
+
+          }
+          else { if($('#carouselButton').children('span').hasClass('fa-play')){
+            $('#mycarousel').carousel('cycle');
+            $('#carouselButton').children('span').removeClass('fa-play');
+            $('#carouselButton').children('span').addClass('fa-pause');
+
+          }
+
+          }
+        });
+        $('#carouselButton1').click(function(){
+          if($('#carouselButton').children('span').hasClass('fa-pause')){
+            $('#mycarousel1').carousel('pause');
+            $('#carouselButton').children('span').removeClass('fa-pause');
+            $('#carouselButton').children('span').addClass('fa-play');
+
+          }
+          else { if($('#carouselButton1').children('span').hasClass('fa-play')){
+            $('#mycarousel1').carousel('cycle');
+            $('#carouselButton').children('span').removeClass('fa-play');
+            $('#carouselButton').children('span').addClass('fa-pause');
+
+          }
+
+          }
+        });
+      $('#loginButton').click(function(){
+        $('#loginModal').modal('show');
+      });
+    });
+    </script>
+</html>

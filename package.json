@@ -1,0 +1,31 @@
+{
+  "name": "bhimadev",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.4.0"
+  },
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "bootstrap": "^4.0.0",
+    "bootstrap-social": "^5.1.1",
+    "font-awesome": "^4.7.0",
+    "gradient": "^0.2.0",
+    "jarallax": "^1.10.7",
+    "jquery": "^3.3.1",
+    "mdb": "^0.1.0",
+    "multicarousel": "^2.0.0",
+    "popper.js": "^1.12.9",
+    "scroll-parallax": "^3.0.3",
+    "shadow": "0.0.1",
+    "wow.js": "^1.2.2"
+  }
+}
